@@ -9,7 +9,7 @@ Welcome to **Image Studio**!
 
 **Image Studio** is where I code a range of different image processing techniques. My main goal here is to build everything from scratch using only Numpy and C-like Cython code to implement image processing algorithms that I find interesting.
 
-I have also written a [Wiki](https://github.com/RafaelAmauri/Image-Studio/wiki) for **Image Studio**. I use the Wiki to explain what some of the more complicated implementations do and also give examples of the implemented functionalities.
+I have also written a [Wiki](https://github.com/rafa-diniz/Image-Studio/wiki) for **Image Studio**. I use the Wiki to explain what some of the more complicated implementations do and also give examples of the implemented functionalities.
 
 
 
@@ -34,7 +34,7 @@ way easier to manipulate color information.
 
 After a **Base Hue** is specified, a **color palette for that Hue will be created on-the-fly**.
 
-It's also possible to specify a **Hue Range**. This controls how much the available hues in the color palette can deviate from the Base Hue. For more information, read the [Wiki Page](https://github.com/RafaelAmauri/Image-Studio/wiki/Color-Palette-Conversion#hue-range)!
+It's also possible to specify a **Hue Range**. This controls how much the available hues in the color palette can deviate from the Base Hue. For more information, read the [Wiki Page](https://github.com/rafa-diniz/Image-Studio/wiki/Color-Palette-Conversion#hue-range)!
 
 ### Some examples:
 
@@ -113,7 +113,7 @@ To illustrate the benefits of using Cython, my Numpy-based implementation of Flo
 ## 🏁 Setup
 ```bash
 # 1) Clone
-git clone https://github.com/RafaelAmauri/Image-Studio.git
+git clone https://github.com/rafa-diniz/Image-Studio.git
 
 # 2) Install dependencies
 pip install -r requirements.txt
